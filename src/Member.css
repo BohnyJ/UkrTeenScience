@@ -1,0 +1,35 @@
+.member {
+  display: flex;
+  flex-flow: column;
+  padding: 50px;
+  box-sizing: border-box;
+  max-width: 400px;
+}
+footer a,
+.member a {
+  font-size: 20px;
+  color: white;
+}
+.member a {
+  margin-right: 8px;
+}
+.member .txt,
+.icons {
+  margin-top: 10px;
+}
+
+.member img {
+  height: 60vh;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 425px) {
+  .member {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .member {
+    width: 33.333%;
+  }
+}

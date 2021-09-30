@@ -1,0 +1,13 @@
+.card {
+  width: 300px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  /* height: min-content; */
+}
+.card img {
+  width: 100%;
+  object-fit: contain;
+  margin: 15px 0;
+}

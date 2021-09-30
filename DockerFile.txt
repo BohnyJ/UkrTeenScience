@@ -1,0 +1,11 @@
+from alpine
+workdir /src
+
+run apk update && apk upgrade --no-cache && apk add --no-cache gcc g++ binutils make npm vips-dev
+
+copy package.json package-lock.json ./
+run npm install
+
+copy . ./
+
+cmd ["npm", "start"]

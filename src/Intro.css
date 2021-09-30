@@ -1,0 +1,29 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+h1 {
+  font-size: 96px;
+  margin: 0 0 0 5px;
+}
+.subtitle {
+  font-size: 36px;
+}
+.block-title {
+  width: min-content;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+.block-buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.block-buttons a:first-child {
+  margin-right: 50px;
+}

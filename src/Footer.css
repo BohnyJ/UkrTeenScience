@@ -1,0 +1,15 @@
+footer {
+  display: flex;
+  flex-flow: column;
+  padding-top: 35px !important;
+  padding-bottom: 15px !important;
+}
+
+footer div {
+  margin: 15px 0;
+  display: flex;
+}
+
+footer div * {
+  margin-right: 10px;
+}

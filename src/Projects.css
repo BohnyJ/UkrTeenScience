@@ -1,0 +1,28 @@
+.proj-info,
+.result-info {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+  margin: 0 30px;
+}
+.result-info > .txt,
+.button {
+  margin-top: 20px;
+}
+.proj-info > .txt,
+.button {
+  margin-top: 20px;
+}
+.project,
+.result {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.project img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
